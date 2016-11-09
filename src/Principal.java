@@ -7,7 +7,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String mensagem = "Olá turma, de mensagem";
+		/*String mensagem = "Olá turma, de mensagem";
 		
 		System.out.println(mensagem);
 		
@@ -24,7 +24,10 @@ public class Principal {
 		int despesas= agua + luz + gas + fibra;
 		
 		// TODO MOSTRAR NO ECRA O TOTAL DE DESPESAS
-		System.out.println("Despesas= "+despesas);
+		System.out.println("Despesas= "+despesas);*/
+		
+		// new dia09112016.TreinoArrays();
+		new dia09112016.Desafios();
 	}
 
 }
