@@ -79,7 +79,10 @@ public class Principal {
 			
 		}while(pacote > 4);
 		*/
-		new dia09112016.Desafios();
+		
+		//new dia09112016.Desafios();
+		
+		new dia09112016.ArraysMediaGolosCasaEForaJornada();
 	}
 
 }
