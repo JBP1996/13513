@@ -1,40 +1,41 @@
-package dia16112016;
-
 public class Carta {
-	
-	public int naipe;
-	public String nome;
-	public int pontuacao;
-	
-	public Carta() {
-		// TODO Auto-generated constructor stub
-	}
 
-	public String getNome(){
-		return nome;
-	}
-	
-	public int getNaipe(){
-		return naipe;
-	}
-	
-	public int setPontuacao(int pontuacao){
-		this.pontuacao = pontuacao;
-		return this.pontuacao;
-	}
-	
-	public int getPontuacao(){
-		return pontuacao;
-	}
+  public Integer Naipe;
 
-	public void setNaipe(int naipe) {
-		this.naipe = naipe;
-	}
+  public String Nome;
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	
-	
-	
+  public Integer Pontuacao;
+  
+  public Carta() {}
+
+    public Carta(Integer Naipe, String Nome, Integer Pontuacao) {
+        this.Naipe = Naipe;
+        this.Nome = Nome;
+        this.Pontuacao = Pontuacao;
+    }
+  
+  
+
+  public String getNome() {
+  return null;
+  }
+
+  public Integer getNaipe() {
+  return null;
+  }
+
+  public void setPontuacao(Integer novaPontuacao) {
+  }
+
+  public Integer getPontuacao() {
+  return null;
+  }
+
+    public void setNaipe(Integer Naipe) {
+        this.Naipe = Naipe;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
 }
