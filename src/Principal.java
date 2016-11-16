@@ -29,7 +29,7 @@ public class Principal {
 		System.out.println("Despesas= "+despesas);*/
 		
 		// new dia09112016.TreinoArrays();
-		/*
+		
 		int pacote =0;
 		System.out.println("Deseja abrir que Package? 1) Package dia 19/10/2016 \n 2) Package dia 28/10/2016 \n 3) Package dia 02/11/2016 \n"
 				+ " 4) Package dia 09/11/2016 \n");
@@ -69,20 +69,50 @@ public class Principal {
 				}
 				case 3:{
 					System.out.println("Está no Package do dia 02/11/2016");
+					
+					System.out.println("Deseja qual Programa? 1) BlackJack \n 2) CalculadoraInfinita \n 3) Ciclos \n 4) Condicionais \n");
+					programa = new Scanner(System.in).nextInt();
+					
+					switch(programa){
+						case 1:
+							new dia02112016.BlackJack();
+							break;
+						case 2:
+							new dia02112016.CalculadoraInfinita();
+							break;
+						case 3:
+							new dia02112016.Ciclos();
+							break;
+						case 4:
+							new dia02112016.Condicionais();
+							break;
+					}
+					
 					break;
 				}
 				case 4:{
 					System.out.println("Está no Package do dia 09/11/2016");
+					
+					System.out.println("Deseja qual Programa? 1) TreinoArrays  \n 2) ArraysMediaGolosCasaEFora por jornada  \n 3) Desafios \n");
+					programa = new Scanner(System.in).nextInt();
+					
+					switch(programa){
+					case 1:
+						new dia09112016.TreinoArrays();
+						break;
+					case 2:
+						new dia09112016.ArraysMediaGolosCasaEForaJornada();
+						break;
+					case 3:
+						new dia09112016.Desafios();
+						break;
+				}
+					
 					break;
 				}
 			}
 			
 		}while(pacote > 4);
-		*/
-		
-		//new dia09112016.Desafios();
-		
-		new dia09112016.ArraysMediaGolosCasaEForaJornada();
 	}
 
 }
